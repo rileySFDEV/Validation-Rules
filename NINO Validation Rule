@@ -1,0 +1,10 @@
+AND(
+NOT(
+REGEX(
+NI_Number__pc ,'^(?!BG|GB|NK|KN|TN|NT|ZZ)[A-CEGHJ-PR-TW-Z][A-CEGHJ-NPR-TW-Z]-(?:\\s*\\d{2}-){3}\\s*[A-D]$'
+)
+),
+NOT(
+NI_Number__pc = ''
+)
+)
