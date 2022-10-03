@@ -8,3 +8,4 @@ NOT(
 NI_Number__pc = ''
 )
 )
+// Validates all UK National Insurance Numbers in the Format PD-91-61-17-A
